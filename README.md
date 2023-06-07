@@ -1,2 +1,2 @@
 # DSP with using Python
-commands
+DSP algorithms on Python
