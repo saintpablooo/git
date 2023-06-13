@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Mon May 15 14:26:57 2023
-
-@author: yesed
-"""
-
 import mysignals as sigs
 from matplotlib import pyplot as plt
 from matplotlib import style
