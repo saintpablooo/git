@@ -30,8 +30,6 @@ def calc_dft(sig_src_arr):
         
     
 def plot_signals(sig_src_arr):
-    #style.use('ggplot')
-    style.use('dark_background')
     f,plt_arr = plt.subplots(5, sharex=True)
     f.suptitle("Discrete Fourier Transform (DFT)")
 
@@ -77,9 +75,9 @@ def calc_idft(sig_src_rex_arr, sig_src_imx_arr):
             
 
 
-# calc_dft(sigs.InputSignal_1kHz_15kHz)
-# calc_idft(sig_dest_rex_arr,sig_dest_imx_arr)
-# plot_signals(sigs.InputSignal_1kHz_15kHz)
+calc_dft(sigs.InputSignal_1kHz_15kHz)
+calc_idft(sig_dest_rex_arr,sig_dest_imx_arr)
+plot_signals(sigs.InputSignal_1kHz_15kHz)
      
 
 
